@@ -1,0 +1,50 @@
+/* Style the loading container */
+body{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+main{
+    margin-top: 40px;
+}
+
+.btn{
+    background-color: rgba(118, 117, 117, 0.8);
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+#loading-container {
+    display: none; /* Initially hide it */
+    position: relative;
+  }
+  
+  /* Center the loading animation */
+  #spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    z-index: 9999; /* Ensure it's on top */
+  }
+  
+  /* Adjust the spinner's size and color */
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-color: #007bff; /* Primary color */
+  }
+  
+  /* Text styling */
+  #spinner p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
