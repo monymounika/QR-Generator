@@ -11,8 +11,8 @@ This is a simple web application that allows you to generate QR codes for URLs. 
 - [Usage](#usage)
 
 
-[Website Image](./img/screen.png)
-<img src="./img/screen.png" alt="Website Image">
+![Website Image](img/screen.png)
+<img src="img/screen.png" alt="Website Image">
 
 ## Features
 
